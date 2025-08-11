@@ -1,0 +1,156 @@
+* {
+  --mainColor: #202022;
+  --secondaryColor: #fff;
+
+  font-family: "Poppins", sans-serif;
+  color: var( --secondaryColor );
+  background: var( --mainColor );
+}
+
+hr.rounded {
+  border-top: 2px solid var( --secondaryColor );
+  border-radius: 5px;
+  width: 100%;
+} 
+
+#root {
+  display: flex;
+  justify-content: center;
+}
+
+article {
+  max-width: 960px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+h4 {
+  margin: 0;
+}
+
+h1, section h4 {
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  font-weight: 200;
+}
+
+img {
+  height: 160px
+}
+
+header {
+  gap: 16px;
+  display: flex;
+}
+
+input[type="button"] {
+  border: 0;
+  background: var( --mainColor );
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+}
+
+.icons svg {
+  height: 32px;
+  background: var( --secondaryColor );
+  border-radius: 4px;
+  fill: var( --mainColor );
+  padding: 4px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.list a {
+  display: flex;
+  align-items: center;
+}
+
+.list a svg {
+  stroke: var( --secondaryColor );
+}
+
+.list p {
+  margin: 0;
+  text-align: justify;
+}
+
+.list img {
+  height: 10rem;
+}
+
+.horizontal {
+  gap: 2rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.verticle {
+  display: flex;
+  flex-direction: column;
+}
+
+video {
+  width: 100%;
+}
+
+iframe {
+  width: 100%;
+}
+
+input[type=button] {
+  cursor: pointer;
+}
+
+
+
+@media (max-width: 672px) {
+  .horizontal {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .horizontal img {
+    width: 100%;
+    height: auto;
+    max-height: 200px; 
+    margin-top: 1rem;
+    object-fit: contain;
+  }
+
+  .list p {
+    font-size: 0.95rem;
+    line-height: 1.4;
+    text-align: left; 
+  }
+
+  .verticle a {
+    font-size: 1rem;
+  }
+}
+
+
+.pictures-page .horizontal {
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.pictures-page .horizontal img {
+  height: auto;
+  width: 45%;
+  max-width: 300px;
+  object-fit: contain;
+}
+/*Elias*/
