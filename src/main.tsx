@@ -16,6 +16,8 @@ import GradeCalc from './GradeCalc.tsx'
 import Calculator from './Calculator.tsx'
 import Slots from './Slots.tsx'
 import Blackjack from './Blackjack.tsx'
+import Toolkit from './Toolkit.tsx'
+import Snake from './Snake.tsx'
 
 createRoot( document.getElementById( 'root' )! ).render(
 	<StrictMode>
@@ -33,6 +35,8 @@ createRoot( document.getElementById( 'root' )! ).render(
 				<Route path="/Calculator" element={ <Calculator/> }/>
 				<Route path="/Slots" element={ <Slots/> }/>
 				<Route path="/Blackjack" element={ <Blackjack/> }/>
+				<Route path="/Snake" element={ <Snake/> }/>
+				<Route path="/Toolkit" element={ <Toolkit/> }/>
 				<Route path="*" element={ <App/> }/>
 			</Routes>
 		</BrowserRouter>

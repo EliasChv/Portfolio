@@ -38,7 +38,7 @@ export default function Resume() {
 
 			<span className="horizontal">
 					<span className="verticle">
-						<a href="/Blackjack">
+						<a href="/Snake">
 							Snake Game
 							<svg xmlns="http://www.w3.org/2000/svg" viewBox="-0.5 -0.5 16 16" fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" className="feather feather-arrow-up-right" id="Arrow-Up-Right--Streamline-Feather" height="16" width="16"> <path d="M4.375 10.625 10.625 4.375" stroke-width="1"></path>
 								<path d="m4.375 4.375 6.25 0 0 6.25" stroke-width="1"></path>
@@ -54,7 +54,7 @@ export default function Resume() {
 
 			<span className="horizontal">
 					<span className="verticle">
-						<a href="/Blackjack">
+						<a href="/Toolkit">
 							Rust Electrical Engineering Toolkit
 							<svg xmlns="http://www.w3.org/2000/svg" viewBox="-0.5 -0.5 16 16" fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" className="feather feather-arrow-up-right" id="Arrow-Up-Right--Streamline-Feather" height="16" width="16"> <path d="M4.375 10.625 10.625 4.375" stroke-width="1"></path>
 								<path d="m4.375 4.375 6.25 0 0 6.25" stroke-width="1"></path>
