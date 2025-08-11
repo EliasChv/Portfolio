@@ -7,6 +7,8 @@ import Pregrade from "./assets/BothCalcs/Pregrade.png"
 import Calc from "./assets/BothCalcs/Calc.png"
 import Slots from "./assets/BlackJack/slotmenu.png"
 import Bjmenu from "./assets/BlackJack/Bjmenu.png"
+import snake1 from "./assets/Projects/snake1.png"
+import rust1 from "./assets/Projects/rust1.png"
 
 export default function Resume() {
     return (
@@ -28,12 +30,43 @@ export default function Resume() {
       	</header>
                 
              
-            
-
             <h1>
   			 Project Library
     		</h1>
 			<br/>
+
+
+			<span className="horizontal">
+					<span className="verticle">
+						<a href="/Blackjack">
+							Snake Game
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="-0.5 -0.5 16 16" fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" className="feather feather-arrow-up-right" id="Arrow-Up-Right--Streamline-Feather" height="16" width="16"> <path d="M4.375 10.625 10.625 4.375" stroke-width="1"></path>
+								<path d="m4.375 4.375 6.25 0 0 6.25" stroke-width="1"></path>
+							</svg>
+						</a>
+						<p>
+					This project implements a classic Snake Game using Godot Engine and C#, bringing a modernized version of the popular arcade game to life. The game features smooth gameplay, intuitive controls, and classic mechanics with a polished user interface.</p>
+					</span>
+                	<img src={ snake1 }/>
+                </span>
+            <br/><br/>
+
+
+			<span className="horizontal">
+					<span className="verticle">
+						<a href="/Blackjack">
+							Rust Electrical Engineering Toolkit
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="-0.5 -0.5 16 16" fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" className="feather feather-arrow-up-right" id="Arrow-Up-Right--Streamline-Feather" height="16" width="16"> <path d="M4.375 10.625 10.625 4.375" stroke-width="1"></path>
+								<path d="m4.375 4.375 6.25 0 0 6.25" stroke-width="1"></path>
+							</svg>
+						</a>
+						<p>
+					This Rust-based Electrical Engineering (EE) toolkit provides a versatile and interactive command-line interface for solving a wide range of electrical problems. The project is designed to assist engineers, students, and hobbyists with various calculations in electrical engineering, including resistor values, impedance, reactance, energy, fourier series, and more.</p>
+					</span>
+                	<img src={ rust1 }/>
+                </span>
+            <br/><br/>
+
 
 				<span className="horizontal">
 					<span className="verticle">
@@ -44,7 +77,7 @@ export default function Resume() {
 							</svg>
 						</a>
 						<p>
-					This project presents a clean and intuitive Blackjack card game, developed using Godot and C#. It recreates the classic casino experience with smooth gameplay and essential Blackjack mechanics. Key features include a responsive betting system, clear game outcome feedback, and dynamic balance tracking. The user interface is visually polished and adapts to various screen sizes, enhancing accessibility. Players can seamlessly place bets, make strategic decisions (hit, stand), and replay rounds with retry or main menu options. The project demonstrates effective integration of object-oriented design, including card and deck classes, paired with crisp 2D animations for a polished look.				</p>
+					This project presents a clean and intuitive Blackjack card game, developed using Godot and C#. It recreates the classic casino experience with smooth gameplay and essential Blackjack mechanics. Key features include a responsive betting system, clear game outcome feedback, and dynamic balance tracking. The project demonstrates effective integration of object-oriented design, including card and deck classes, paired with crisp 2D animations for a polished look.				</p>
 					</span>
                 	<img src={ Bjmenu }/>
                 </span>
@@ -88,7 +121,7 @@ export default function Resume() {
 					<span className="verticle">
 						<a href="/GradeCalc">
 							MATLAB Grade Calculator
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="-0.5 -0.5 16 16" fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" className="feather feather-arrow-up-right" id="Arrow-Up-Right--Streamline-Feather" height="16" width="16">								<path d="M4.375 10.625 10.625 4.375" stroke-width="1"></path>
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="-0.5 -0.5 16 16" fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" className="feather feather-arrow-up-right" id="Arrow-Up-Right--Streamline-Feather" height="16" width="16"> <path d="M4.375 10.625 10.625 4.375" stroke-width="1"></path>
 								<path d="m4.375 4.375 6.25 0 0 6.25" stroke-width="1"></path>
 							</svg>
 						</a>
@@ -105,7 +138,7 @@ export default function Resume() {
 					<span className="verticle">
 						<a href="/Minesweepergame">
 							Minesweeper Game Desgin
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="-0.5 -0.5 16 16" fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" className="feather feather-arrow-up-right" id="Arrow-Up-Right--Streamline-Feather" height="16" width="16">								<path d="M4.375 10.625 10.625 4.375" stroke-width="1"></path>
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="-0.5 -0.5 16 16" fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" className="feather feather-arrow-up-right" id="Arrow-Up-Right--Streamline-Feather" height="16" width="16"> <path d="M4.375 10.625 10.625 4.375" stroke-width="1"></path>
 								<path d="m4.375 4.375 6.25 0 0 6.25" stroke-width="1"></path>
 							</svg>
 						</a>

@@ -52,21 +52,21 @@ Player Needs: A traditional Blackjack experience with a user-friendly interface,
                     <ul>
                         <ul>
                             <li>
-Betting System: Players can place bets before each round, with their balance updated accordingly based on the outcome (win/loss).
+                        Betting System: Players can place bets before each round, with their balance updated accordingly based on the outcome (win/loss).
                             </li>
                             <li>
-Game Outcome Feedback: The game notifies the player if they win, lose, or tie, and prompts them to either retry the round or return to the main menu.
+                        Game Outcome Feedback: The game notifies the player if they win, lose, or tie, and prompts them to either retry the round or return to the main menu.
                             </li>
                         </ul>
                         <ul>
                             <li>
-Balance Tracking: Displays the player’s current balance and allows for continued play based on available funds.
+                        Balance Tracking: Displays the player’s current balance and allows for continued play based on available funds.
                             </li>
                              <li>
-Intuitive UI: The layout includes a clear representation of cards for both the player and the dealer, along with buttons for actions (hit, stand, etc.).
+                        Intuitive UI: The layout includes a clear representation of cards for both the player and the dealer, along with buttons for actions (hit, stand, etc.).
                             </li>
                             <li>
-Retry or Main Menu Option: After each round, players can either try again or return to the main menu.
+                        Retry or Main Menu Option: After each round, players can either try again or return to the main menu.
                             </li>
                         </ul>
                     </ul>

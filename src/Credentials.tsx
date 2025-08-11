@@ -2,7 +2,8 @@ import CyberBadge from "./assets/Credentials/CyberBadge.png"
 import ITBadge from "./assets/Credentials/ITBadge.png"
 import GoogleCyber from "./assets/Credentials/GoogleCyber.png"
 import GoogleIT from "./assets/Credentials/GoogleIT.png"
-
+import DataBadge from "./assets/Credentials/DataBadge.png"
+import DataAnalytics from "./assets/Credentials/DataAnalytics.png"
 
 export default function Credentials() {
     return (
@@ -76,6 +77,27 @@ export default function Credentials() {
 
 
 
+ <h3>
+  			 Google Career Certificate In Data Anayltics
+    		</h3>
+                <p style={ { display: "flex", justifyContent: "center" } }>
+                This course has expanded my understanding of data analytics, from data collection and cleaning to analysis and visualization. I have learned to use tools and techniques to interpret data and generate actionable insights, enabling data-driven decision-making in various fields.
+                </p>
+            
+                <span className="verticle">
+                    <span className="horizontal" style={ { justifyContent: "center" } }>
+                        <img src={ DataBadge }/>
+                         <img src={ DataAnalytics }/>
+                </span>
+                <h4>
+                    Tools Used
+                </h4>
+                <p>
+                    Excel, SQL, R, Tableau, Google Data Studio, Python, BigQuery, Data Cleaning Tools, Data Visualization Tools
+                </p>
+
+                </span><br/>
+                <hr className="rounded"></hr>
 
 
                
