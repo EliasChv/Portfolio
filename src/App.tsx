@@ -45,7 +45,7 @@ return (
 				</a>
 			</div>
 			<p>
-				Electrical Engineering Student at the University of Notre Dame. This is my portfolio website showcasing my projects, skills, and experience as a web developer. Explore my projects, learn more about my professional journey, and connect with me through the sites above.
+				Electrical Engineering Student at the University of Notre Dame. This is my portfolio website showcasing my projects, skills, and experience as a web developer, game designer and Electrical Engineer! Explore my projects, learn more about my professional journey, and connect with me through the sites above.
 			</p>
   			<hr className="rounded"></hr>
       		<br/>

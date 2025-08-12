@@ -23,12 +23,29 @@ export default function Resume() {
                 <p style={ { display: "flex", justifyContent: "center" } }>
                     You can view my resume directly below, which outlines my skills, education, and professional experience.
                 </p>
-                <iframe src="https://drive.google.com/file/d/1mrfw9SIzHmOpCZGkeGLz496ul8KgS6FB/preview" width="640" height="480" allow="autoplay"></iframe> <p style={ { display: "flex", justifyContent: "center" } }>
+               <iframe src="https://drive.google.com/file/d/1mrfw9SIzHmOpCZGkeGLz496ul8KgS6FB/preview" width="640" height="480" allow="autoplay"></iframe> <p style={ { display: "flex", justifyContent: "center" } }>
                     Or download my Resumé here:&emsp;
-                    <a href="https://drive.google.com/uc?export=download&id=1sJRlg9IDy8cwv8iUYvSuHGspAtcL_pON">
+                    <a href="https://drive.google.com/uc?export=download&id=1mrfw9SIzHmOpCZGkeGLz496ul8KgS6FB">
                         Download (PDF)
                     </a>
                 </p>
+
+            
+                <h1>
+                     Curriculum Vitae
+                </h1>
+                <hr className="rounded"></hr>
+                <p style={ { display: "flex", justifyContent: "center" } }>
+                You can also view my CV directly below, for a more detailed showcase of my skills.
+                </p>
+                <iframe src="https://drive.google.com/file/d/1GgbgypmvCfwIUaXHjAiGzvWD0_pwkTFM/preview" width="640" height="480" allow="autoplay"></iframe> <p style={ { display: "flex", justifyContent: "center" } }>
+                    Or download my CV here:&emsp;
+                    <a href="https://drive.google.com/uc?export=download&id=1GgbgypmvCfwIUaXHjAiGzvWD0_pwkTFM">
+                        Download (CV)
+                    </a>
+                </p>
+
+                
             </article>
         </>
     )
