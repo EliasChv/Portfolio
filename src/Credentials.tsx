@@ -78,7 +78,7 @@ export default function Credentials() {
 
 
  <h3>
-  			 Google Career Certificate In Data Anayltics
+  			 Google Career Certificate In Data Analytics
     		</h3>
                 <p style={ { display: "flex", justifyContent: "center" } }>
                 This course has expanded my understanding of data analytics, from data collection and cleaning to analysis and visualization. I have learned to use tools and techniques to interpret data and generate actionable insights, enabling data-driven decision-making in various fields.
