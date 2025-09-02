@@ -23,9 +23,9 @@ export default function Resume() {
                 <p style={ { display: "flex", justifyContent: "center" } }>
                     You can view my resume directly below, which outlines my skills, education, and professional experience.
                 </p>
-               <iframe src="https://drive.google.com/file/d/1mrfw9SIzHmOpCZGkeGLz496ul8KgS6FB/preview" width="640" height="480" allow="autoplay"></iframe> <p style={ { display: "flex", justifyContent: "center" } }>
+                <iframe src="https://drive.google.com/file/d/1R_ErzHYjyhfGqYbmaPIvJngsEuzSTn69/preview" width="640" height="480" allow="autoplay"></iframe> <p style={ { display: "flex", justifyContent: "center" } }>
                     Or download my Resumé here:&emsp;
-                    <a href="https://drive.google.com/uc?export=download&id=1mrfw9SIzHmOpCZGkeGLz496ul8KgS6FB">
+                    <a href="https://drive.google.com/uc?export=download&id=1R_ErzHYjyhfGqYbmaPIvJngsEuzSTn69">
                         Download (PDF)
                     </a>
                 </p>
